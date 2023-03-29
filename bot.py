@@ -8,7 +8,7 @@ import random
 intents = discord.Intents().all()
 client = commands.Bot(command_prefix="$" , intents=intents)
 
-api_key = "AIzaSyAaNQjgyawFm3ari3LvTBqjXvZkxNny-rk"
+api_key = "<API-KEY>"
 
 
 @client.event
@@ -29,4 +29,4 @@ async def showpic(ctx, *, search):
     await ctx.send(embed=embed1)
 
 
-client.run("MTA4OTU3NDU0ODU5ODQ0NDIwMg.GS7dDt.q3n9GMHtZn4GGEpk0nCW1QBhqsTEb-pfr7q7XI")
+client.run("<DISCORD BOT-TOKEN>")
